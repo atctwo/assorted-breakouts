@@ -39,3 +39,10 @@ This is a breakout board for 3x3mm or 4x4mm QFN-16 chips that are 0.5mm pitch.
 <img src="images/qfn-24-pcb.png" height="200">
 
 A breakout board for 3x3mm QFN-24 chips, with 0.4mm pitch.  It is delibrately designed so that the chip is parallel with the board so chips like IMUs point upwards when connected to a breadboard.
+
+## SOT-23 (`sot23-breakout`)
+
+<img src="images/sot-23-3d.png" height="200">
+<img src="images/sot-23-pcb.png" height="200">
+
+A breakout board for SOT23 chips with (up to) 6 pins.  The pins are broken out in an anticlockwise way, so pin one on the SOT23 chip correlates to pin 1 on the board.  There's a little circle beside pin one on the board.

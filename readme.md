@@ -46,3 +46,15 @@ A breakout board for 3x3mm QFN-24 chips, with 0.4mm pitch.  It is delibrately de
 <img src="images/sot-23-pcb.png" height="200">
 
 A breakout board for SOT23 chips with (up to) 6 pins.  The pins are broken out in an anticlockwise way, so pin one on the SOT23 chip correlates to pin 1 on the board.  There's a little circle beside pin one on the board.
+
+## Time Bug (DS13xx breakout) (`time_bug`)
+
+<img src="images/time_bug_3d_top.png" height="200">
+<img src="images/time_bug_3d_bottom.png" height="200">
+<img src="images/time_bug_pcb.png" height="200">
+
+This is a breakout for the DS13xx series of RTC chips, with a MSOP-8 package (eg: DS1307, DS1308, DS1337, DS1338, DS1339, DS1341, DS1342, DS1371).  **This won't work with the DS1302 or DS1347**.  The board is designed to work with chips with the following pinout:
+
+<img src="images/time_bug_pinout.png" height="200">
+
+The two pads at the top of the board are connected to the crystal pins of the DS13xx (X1 and X2).  The board is designed such that the crystal can be placed beside the PCB, and the pins of the crystal are bent at 90°, so they can be soldered to the pads on the PCB.

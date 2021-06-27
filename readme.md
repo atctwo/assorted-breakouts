@@ -57,4 +57,4 @@ This is a breakout for the DS13xx series of RTC chips, with a MSOP-8 package (eg
 
 <img src="images/time_bug_pinout.png" height="200">
 
-The two pads at the top of the board are connected to the crystal pins of the DS13xx (X1 and X2).  The board is designed such that the crystal can be placed beside the PCB, and the pins of the crystal are bent at 90°, so they can be soldered to the pads on the PCB.
+The two pads at the top of the board are connected to the crystal pins of the DS13xx (X1 and X2).  The board is designed such that the crystal can be placed beside the PCB, and the pins of the crystal are bent at 90°, so they can be soldered to the pads on the PCB.  The capacitor is a decoulping capacitor, and should be 0.1µF (look at the datasheet to see if there is a better capacitance for that chip).

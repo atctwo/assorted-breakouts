@@ -12,6 +12,7 @@ This is a collection of small breakout boards for small devices that I made with
 - [QFN-24 breakout](#qfn24)
 - [QFP-80 breakout](#qfp80)
 - [SOT23 Breakout](#sot23)
+- [FPC (0.5mm, 30 pins)](#fpc-0.5-30)
 
 ## Time Bug (DS13xx breakout) ([`time_bug`](./time_bug/)) <a name="time_bug"></a>
 
@@ -98,3 +99,11 @@ A breakout board for 0.4mm pitch QFP-80 ICs.
 <img src="images/sot-23-pcb.png" height="200">
 
 A breakout board for SOT23 chips with (up to) 6 pins.  The pins are broken out in an anticlockwise way, so pin one on the SOT23 chip correlates to pin 1 on the board.  There's a little circle beside pin one on the board.
+
+## FPC (0.5mm, 30 pins) ([`fpc-0.5-30`](./fpc-0.5-30/)) <a name="fpc-0.5-30"></a>
+
+<img src="images/fpc-0.5-30-top.png" height="200">
+<img src="images/fpc-0.5-30-bottom.png" height="200">
+<img src="images/fpc-0.5-30-pcb.png" height="200">
+
+A breakout board for FPC connectors of 0.5mm pitch and (up to) 30 pins.

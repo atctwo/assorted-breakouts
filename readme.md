@@ -10,6 +10,7 @@ This is a collection of small breakout boards for small devices that I made with
 - [Alps 5 Way Switch](#5_way_switch)
 - [QFN-16 breakout](#qfn16)
 - [QFN-24 breakout](#qfn24)
+- [QFP-80 breakout](#qfp80)
 - [SOT23 Breakout](#sot23)
 
 ## Time Bug (DS13xx breakout) ([`time_bug`](./time_bug/)) <a name="time_bug"></a>
@@ -82,6 +83,14 @@ This is a breakout board for 3x3mm or 4x4mm QFN-16 chips that are 0.5mm pitch.
 <img src="images/qfn-24-pcb.png" height="200">
 
 A breakout board for 3x3mm QFN-24 chips, with 0.4mm pitch.  It is delibrately designed so that the chip is parallel with the board so chips like IMUs point upwards when connected to a breadboard.
+
+## QFP-80 ([`qfp-80-breakout`](./qfp-80-breakout/)) <a name="qfp80"></a>
+
+<img src="images/qfp-80-top.png" height="200">
+<img src="images/qfp-80-bottom.png" height="200">
+<img src="images/qfp-80-pcb.png" height="200">
+
+A breakout board for 0.4mm pitch QFP-80 ICs.
 
 ## SOT-23 ([`sot23-breakout`](./sot23-breakout/)) <a name="sot23"></a>
 

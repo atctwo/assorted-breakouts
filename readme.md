@@ -25,6 +25,14 @@ A PCIe card plugs into the device, which itself plugs into a PCIe slot.  Each pi
 
 Since PCIe makes use of several pairs of differential signals, using this board *might* have an impact on signal integrity, meaning there will probably be an impact on the bus' throughput.  I've tried to keep the traces length matched, but they aren't impedance matched.  I don't have the right equipment to assess how much the PCIe Friend changes the signal, so I would only recommend using it for debugging simple devices.
 
+## Amphenol MagJack (RJMG1BD3B8K1ANR) (`amphenol-magjack`)
+
+<img src="images/amphenol-magjack-top.png" height="200">
+<img src="images/amphenol-magjack-bottom.png" height="200">
+<img src="images/amphenol-magjack-pcb.png" height="200">
+
+A breakout for the Amphenol RJMG1BD3B8K1ANR RJ45 connector with integrated magnetics (up to 100BASE-T).  Traces are length matched but not impedance matched, so they should only be used for testing, and not in a production version.
+
 ## ESP32 WROVER (`esp32-wrover-breakout`)
 
 <img src="images/esp32-3d.png" height="200">
